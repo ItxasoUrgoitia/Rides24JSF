@@ -6,7 +6,7 @@
 	<artifactId>LoginJSF</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
-	<name>LoginJSF</name>
+	<name>LoginJSF2</name>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

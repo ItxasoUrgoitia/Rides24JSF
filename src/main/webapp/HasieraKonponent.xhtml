@@ -1,23 +1,67 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
- "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml"
-	xmlns:ui="http://java.sun.com/jsf/facelets"
-	xmlns:h="http://java.sun.com/jsf/html"
-	xmlns:f="http://java.sun.com/jsf/core">
-<ui:composition>
-<f:view>
-	<h:head>
-		<title>Rides aplikazioa</title>
-	</h:head>
-	<h:body>
-		<h:form>
-			<h3>Select Option</h3>
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
 
-			<h:commandButton value="Create Ride" action="1" />
-			<h:commandButton value="Query Rides" action="2" />
+<h:head>
+    <title>Rides aplikazioa</title>
 
-		</h:form>
-	</h:body>
-</f:view>
-</ui:composition>
+    <style>
+        .form-container {
+            max-width: 600px;
+            margin: 40px auto;
+            padding: 30px;
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .title {
+            font-size: 26px;
+            font-weight: bold;
+            margin-bottom: 25px;
+            color: #333;
+        }
+        .button-row {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            margin-top: 30px;
+        }
+        .main-button {
+            padding: 12px 25px;
+            background-color: #007bff;
+            border: none;
+            color: #fff;
+            border-radius: 6px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .main-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</h:head>
+
+<h:body>
+
+<div class="form-container">
+
+    <div class="title">Select Option</div>
+
+    <h:form>
+
+        <div class="button-row">
+            <p:commandButton value="Create Ride" action="1" styleClass="main-button" />
+            <p:commandButton value="Query Rides" action="2" styleClass="main-button" />
+        </div>
+
+    </h:form>
+
+</div>
+
+</h:body>
 </html>

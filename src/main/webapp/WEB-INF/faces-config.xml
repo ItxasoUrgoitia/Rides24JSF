@@ -21,6 +21,7 @@
 			<to-view-id>/CreateRide.xhtml</to-view-id>
 		</navigation-case>
 	</navigation-rule>
+	
 	<navigation-rule>
 		<display-name>Hasiera.xhtml</display-name>
 		<from-view-id>/Hasiera.xhtml</from-view-id>
@@ -44,6 +45,32 @@
 		<to-view-id>/Hasiera.xhtml</to-view-id>
 	</navigation-case>
 </navigation-rule>
+
+<navigation-rule>
+		<display-name>Hasierahasiera.xhtml</display-name>
+		<from-view-id>/Hasierahasiera.xhtml</from-view-id>
+		<navigation-case>
+			<from-outcome>login</from-outcome>
+			<to-view-id>/Login.xhtml</to-view-id>
+		</navigation-case>
+	</navigation-rule>
+
+<navigation-rule>
+		<display-name>Hasierahasiera.xhtml</display-name>
+		<from-view-id>/Hasierahasiera.xhtml</from-view-id>
+		<navigation-case>
+			<from-outcome>signup</from-outcome>
+			<to-view-id>/Singup.xhtml</to-view-id>
+		</navigation-case>
+	</navigation-rule>
 	
+	<navigation-rule>
+		<display-name>Hasierahasiera.xhtml</display-name>
+		<from-view-id>/Hasierahasiera.xhtml</from-view-id>
+		<navigation-case>
+			<from-outcome>query</from-outcome>
+			<to-view-id>/QueryRides.xhtml</to-view-id>
+		</navigation-case>
+	</navigation-rule>
 
 </faces-config>

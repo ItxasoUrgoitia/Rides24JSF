@@ -13,16 +13,12 @@
 			src="http://www.ehu.eus/documents/340468/5849813/Biling%C3%BCe_positivo_baja.jpg"
 			width="500" height="70" />
 	</h1>
-	<h:panelGrid columns="2" align="center" border="3" cellpadding="10"
-		cellspacing="1">
-		<h:panelGrid columns="1"
-			style="background-color: lightblue; color: blue">
-			<ui:include src="Menua.xhtml" />
-		</h:panelGrid>
-		<h:panelGrid columns="1">
-			<ui:insert name="gorputza">Eraikitzen...</ui:insert>
-		</h:panelGrid>
-	</h:panelGrid>
+	
+	<!-- Contenido centrado -->
+	<div align="center">
+		<ui:insert name="gorputza">Eraikitzen...</ui:insert>
+	</div>
+	
 	<ui:insert name="orri-oina">
 		<h4 style="color: blue;" align="center">&#169; Software Ingeniaritza II</h4>
 	</ui:insert>
